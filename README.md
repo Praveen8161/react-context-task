@@ -1,8 +1,17 @@
-# React + Vite
+# React Context Task
+- Cart Application using React useContext
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Languages Used
+- React+Vite
+- Tailwind Css(For Styling)
 
-Currently, two official plugins are available:
+## How it Works
+- It creates a product cards in Cart Page with given data
+- And also has a functiont to change the quantity of the product 
+- Based on the product Quantity Sub Total of the Product, Total Quantity and the Total Price will vary 
+- it was achieved by using react useContext
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run Command
+`npm run dev`
+
+- [LIVE SITE](https://prismatic-bublanina-64628e.netlify.app/)

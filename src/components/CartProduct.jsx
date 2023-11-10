@@ -26,7 +26,7 @@ const CartProduct = ({title,ids,description,price,thumbnail}) => {
 
       <div className="flex flex-col items-start justify-between w-full gap-10 mb-6 xs:flex-row h-4/6" data-name="product-cart-details">
 
-        <div className="flex flex-col items-start justify-center w-full h-full gap-3 xs:w-4/6 md:flex-row">
+        <div className="flex flex-col items-start justify-center w-full h-full gap-3 xs:w-4/6 md:flex-row sm:w-full sm:flex-row">
           <div className="flex-wrap w-2/5 md:h-full">
             <img src={thumbnail} alt="Product-Image" className="object-center object-contain xs:object-cover xs:object-center min-w-[120px] min-h-[120px] xs:min-w-[100px] xs:min-h-[100px]" />
           </div>

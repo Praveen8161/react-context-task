@@ -3,7 +3,7 @@
 
 ## Languages Used
 - React+Vite
-- Tailwind Css(For Styling)
+- Tailwind Css(For Styling purpose)
 
 ## How it Works
 - It creates a product cards in Cart Page with given data
